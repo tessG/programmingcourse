@@ -1,4 +1,4 @@
-# 03 · Beslutninger og gentagelse
+# 03 · Betingelser
 
 ## Du har allerede set begge dele
 
@@ -12,7 +12,8 @@ if (x > width) {  // beslutning — er cirklen gået for langt?
 }
 ```
 
-`draw()` er en implicit gentagelse — Processing kalder den for dig. Men hvad nu hvis du vil gentage noget *inde i* en enkelt frame? Og hvad nu hvis du vil træffe en beslutning for *hvert element* du tegner?
+`draw()` er en implicit gentagelse — Processing kalder den for dig. 
+Men hvad nu hvis du vil gentage noget *inde i* en enkelt frame? Og hvad nu hvis du vil træffe en beslutning for *hvert element* du tegner?
 
 Det er det denne lektion handler om.
 

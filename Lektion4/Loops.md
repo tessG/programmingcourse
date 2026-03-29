@@ -1,16 +1,16 @@
-# 04 · Løkker og lister
+# 04 · Loops og lister
 
-## Du har allerede brugt en løkke
+## Du har allerede brugt et loop 
 
-I lektion 3 brugte du `for` til at tegne 50 cirkler på tilfældige steder. Løkken vidste ikke noget om cirklerne — den talte bare fra 0 til 49 og lod `random()` bestemme resten.
+I lektion 3 brugte du `for` til at tegne 50 cirkler på tilfældige steder. Loop'et vidste ikke noget om cirklerne — den talte bare fra 0 til 49 og lod `random()` bestemme resten.
 
-Men hvad nu hvis du har *konkrete data* du vil løbe igennem? Fx en liste af størrelser, navne eller priser? Så er løkken og arrayet et naturligt par.
+Men hvad nu hvis du har *konkrete data* du vil løbe igennem? Fx en liste af størrelser, navne eller priser? Så er loop'et og arrayet et naturligt par.
 
 ---
 
-## Et nyt program — samme data, tre løkker
+## Et nyt program — samme data, tre loops
 
-Kør dette program. Det tegner det samme mønster tre gange — med tre forskellige løkker.
+Kør dette program. Det tegner det samme mønster tre gange — med tre forskellige loops.
 
 ```java
 float[] sizes = {20, 45, 70, 35, 90, 55, 30, 80};
@@ -53,9 +53,9 @@ Alle tre rækker tegner det samme. Forskellen er *hvordan* de bevæger sig genne
 
 ---
 
-## for-i løkken
+## for-i loop
 
-Den klassiske løkke. Du har en tæller `i` du selv styrer — og du kan bruge den til at beregne position, tilgå indeks og meget andet:
+Det klassiske loop. Du har en tæller `i` du selv styrer — og du kan bruge den til at beregne position, tilgå indeks og meget andet:
 
 ```java
 for (int i = 0; i < sizes.length; i++) {
@@ -67,7 +67,7 @@ Brug `for-i` når du har brug for indekset, eller når du vil springe elementer 
 
 ---
 
-## for-each løkken
+## for-each loop
 
 Når du bare vil have *hvert element* uden at bekymre dig om indeks:
 
@@ -83,7 +83,7 @@ Brug `for-each` når du blot vil læse eller behandle hvert element i rækkeføl
 
 ---
 
-## while løkken
+## while loop
 
 Kører så længe en betingelse er sand. Den er mere fleksibel end `for` — men kræver at du selv husker at opdatere tælleren:
 
@@ -91,21 +91,21 @@ Kører så længe en betingelse er sand. Den er mere fleksibel end `for` — men
 int i = 0;
 while (i < sizes.length) {
   println(sizes[i]);
-  i++;  // glem ikke denne — ellers kører løkken for evigt
+  i++;  // glem ikke denne — ellers kører loop'et for evigt
 }
 ```
 
-Brug `while` når du ikke på forhånd ved hvor mange gange løkken skal køre — fx når du læser fra en fil eller venter på input.
+Brug `while` når du ikke på forhånd ved hvor mange gange loop'et skal køre — fx når du læser fra en fil eller venter på input.
 
 ---
 
 ## Hvornår bruger du hvilken?
 
-| Situation | Løkke |
-|-----------|-------|
-| Du kender antal gentagelser og/eller bruger indekset | `for-i` |
+| Situation | Loop type  |
+|-----------|------------|
+| Du kender antal gentagelser og/eller bruger indekset | `for-i`    |
 | Du vil læse hvert element i en liste | `for-each` |
-| Du kører indtil en betingelse holder op med at være sand | `while` |
+| Du kører indtil en betingelse holder op med at være sand | `while`    |
 
 ---
 
