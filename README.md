@@ -32,14 +32,14 @@ Se: [Den gennemgående opgave](opgave_politik.md)
 
 ## Indholdsfortegnelse
 
-| Lektion | Emne | Koncept-side                                                    |
-|---------|------|-----------------------------------------------------------------|
-| 1 | Hvad er programmering — og hvad er Processing? | [Lektion1/Hello.md](Lektion1/01_intro_concepts.md)              |
-| 2 | Variabler og datatyper | [Lektion2/Variable.md](Lektion2/02_data_concepts.md)            |
-| 3 | Beslutninger og forgreningslogik | [Lektion3/Betingelser.md](Lektion3/03_beslutninger_concepts.md) |
-| 4 | Løkker og lister | [Lektion4/Loops.md](Lektion4/04_loekker_concepts.md)            |
-| 5 | Funktioner — genbrug og overskuelighed | [Lektion5/Funktioner.md](Lektion5/Funktioner)                   |
-| 6 | Objekter og klasser | [Lektion6/Klasser.md](Lektion6/Klasser.md)             |
+| Lektion | Emne | Koncept-side                                       |
+|---------|------|----------------------------------------------------|
+| 1 | Hvad er programmering — og hvad er Processing? | [Lektion1/Hello.md](Lektion1/Hello.md)             |
+| 2 | Variabler og datatyper | [Lektion2/Variable.md](Lektion2/Variable.md)       |
+| 3 | Beslutninger og forgreningslogik | [Lektion3/Betingelser.md](Lektion3/Betingelser.md) |
+| 4 | Løkker og lister | [Lektion4/Loops.md](Lektion4/Loops.md)             |
+| 5 | Funktioner — genbrug og overskuelighed | [Lektion5/Funktioner.md](Lektion5/Funktioner.md)   |
+| 6 | Objekter og klasser | [Lektion6/Klasser.md](Lektion6/Klasser.md)         |
 
 ---
 
