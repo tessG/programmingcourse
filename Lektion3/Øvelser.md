@@ -1,4 +1,4 @@
-# 03 · Øvelser: Beslutninger og gentagelse
+# 03 · Øvelser: Betingelser og gentagelse
 
 ---
 
@@ -101,6 +101,6 @@ void mousePressed() {
 
 Download sketchen og ret fejlene direkte i Processing:
 
-[⬇ betingelser_fejl.pde](betingelser_fejl/beslutninger_fejl.pde)
+[⬇ betingelser_fejl.pde](betingelser_fejl/betingelser_fejl.pde)
 
 Der er 8 fejl — nogle er syntaksfejl, andre er logiske fejl. Ret én fejl ad gangen og kør efter hver rettelse.

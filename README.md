@@ -38,8 +38,8 @@ Se: [Den gennemgående opgave](opgave_politik.md)
 | 2 | Variabler og datatyper | [Lektion2/Variable.md](Lektion2/02_data_concepts.md)            |
 | 3 | Beslutninger og forgreningslogik | [Lektion3/Betingelser.md](Lektion3/03_beslutninger_concepts.md) |
 | 4 | Løkker og lister | [Lektion4/Loops.md](Lektion4/04_loekker_concepts.md)            |
-| 5 | Funktioner — genbrug og overskuelighed | [Lektion5/Funktioner.md](Lektion5/funktioner)                   |
-| 6 | Objekter og klasser | [Lektion6/Klasser.md](Lektion6/06_klasser_concepts.md)          |
+| 5 | Funktioner — genbrug og overskuelighed | [Lektion5/Funktioner.md](Lektion5/Funktioner)                   |
+| 6 | Objekter og klasser | [Lektion6/Klasser.md](Lektion6/Klasser.md)             |
 
 ---
 
