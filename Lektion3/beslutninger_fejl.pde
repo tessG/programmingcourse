@@ -1,0 +1,61 @@
+// ØVELSE: Find og ret fejlene
+// Der er 8 fejl i denne sketch — nogle er syntaksfejl, andre er logiske fejl.
+// Kør sketchen, læs fejlmeddelelserne, og ret én fejl ad gangen.
+
+int antal = 40;
+float graense = 70;
+
+void setup() {
+  size(600, 400);
+  background(30);
+  noLoop();
+}
+
+void draw() {
+
+  // Fejl 1: løkken kører én gang for meget
+  for (int i = 0; i <= antal; i++) {
+    float x = random(width);
+    float y = random(height);
+    float diameter = random(10, 120);
+
+    // Fejl 2: forkert sammenligningsoperator — skal tildele farve, ikke en værdi
+    if (diameter = graense) {
+      fill(220, 60, 60);
+    } else {
+      fill(240);
+    }
+
+    ellipse(x, y, diameter, diameter);
+  }
+
+  // Fejl 3 og 4: hvornår udskrives "stor", hvornår "lille"? Logikken er byttet om
+  float d = random(10, 120);
+  if (d < graense) {
+    println(d + " er stor");
+  } else {
+    println(d + " er lille");
+  }
+
+  // Fejl 5: betingelsen er aldrig sand — hvorfor?
+  int score = 50;
+  if (score > 50 && score < 50) {
+    println("score er præcis 50");
+  }
+
+  // Fejl 6: løkken kører aldrig — hvad er galt?
+  for (int i = 10; i < 5; i++) {
+    println("i er: " + i);
+  }
+
+  // Fejl 7: hvad sker der her — og hvad var hensigten?
+  for (int i = 0; i < 5; i++) {
+    int i = 100;
+    println(i);
+  }
+
+  // Fejl 8: logisk fejl — rect tegnes altid samme sted, uanset j
+  for (int j = 0; j < 6; j++) {
+    rect(50, j * 50, 40, 40);  // forventer 6 firkanter på række (vandret)
+  }
+}

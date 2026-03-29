@@ -1,21 +1,28 @@
-# 02 · Øvelser: Variabler og datatyper
+# Øvelser: Variabler og datatyper
 
-Disse øvelser træner syntaks. Løs dem én ad gangen — de er korte med vilje.
+Disse øvelser træner syntaks og forståelse. Løs dem én ad gangen — de er korte med vilje.
 
 ---
 
-## Øvelse 1 — Deklarer og udskriv
+## Øvelse 1 — Tag udgangspunkt i lektion 1-programmet
+
+Åbn programmet fra lektion 1. Tilføj en variabel der styrer cirklens størrelse.  
+Giv den en startværdi og lad den vokse lidt for hver frame — ligesom `x` gør.
+
+---
+
+## Øvelse 2 — Deklarer og udskriv
 
 Opret følgende variabler og udskriv dem alle med `println()`:
 
 - Dit navn
 - Din alder
-- Din (et kommatal)
+- Din yndlingspris (et kommatal)
 - Om du drikker kaffe (sand/falsk)
 
 ---
 
-## Øvelse 2 — Regnestykker med int
+## Øvelse 3 — Regnestykker med int
 
 ```java
 int a = 12;
@@ -27,14 +34,14 @@ Hvad sker der med divisionen? Hvorfor?
 
 ---
 
-## Øvelse 3 — int vs float
+## Øvelse 4 — int vs float
 
 Lav samme divisionsøvelse som ovenfor, men brug `float` i stedet for `int`.  
 Hvad er forskellen i output?
 
 ---
 
-## Øvelse 4 — Tekst og tal sammen
+## Øvelse 5 — Tekst og tal sammen
 
 Opret en `String` der hedder `city` og en `int` der hedder `population`.  
 Udskriv en sætning der kombinerer begge, fx:
@@ -45,7 +52,7 @@ København har 794000 indbyggere.
 
 ---
 
-## Øvelse 5 — Opdater en variabel
+## Øvelse 6 — Opdater en variabel
 
 ```java
 int score = 0;
@@ -56,57 +63,50 @@ Udskriv `score` efter hver ændring.
 
 ---
 
-## Øvelse 6 — Swap to variabler
+## Øvelse 7 — Swap to variabler
 
 ```java
 String first = "Anna";
 String second = "Bo";
 ```
 
-Byt indholdet af de to variabler, så `first` ender med at indeholde `"Bo"` og omvendt.  
+Byt indholdet af de to variabler så `first` ender med at indeholde `"Bo"` og omvendt.  
 *Hint: du får brug for en tredje, midlertidig variabel.*
 
 ---
 
-## Øvelse 7 — Beregn og gem
+## Øvelse 8 — Beregn og gem
 
 Opret variabler for bredde og højde på et rektangel (vælg selv værdier).  
 Beregn og gem arealet i en ny variabel. Udskriv arealet.
 
 ---
 
-## Øvelse 8 — Brug width og height
+## Øvelse 9 — Scope
+
+Kør dette program og læs fejlmeddelelsen:
 
 ```java
 void setup() {
-  size(400, 300);
-  println(width);
-  println(height);
+  size(400, 400);
+  int score = 0;
+}
+
+void draw() {
+  score = score + 1;
+  println(score);
 }
 ```
 
-Kør koden. Hvad udskrives?  
-Tilføj en linje der udskriver arealet af vinduet.
+Hvad er problemet? Ret koden så den virker.
 
 ---
 
-## Øvelse 9 — Tegn med variabler
+## Øvelse 10 — Brug frameCount
 
-Opret variabler for `x`, `y` og `diameter`.  
-Brug dem til at tegne en cirkel med `ellipse()`.  
-Skift derefter værdierne og se at cirklen flytter sig.
-
----
-
-## Øvelse 10 — Float og afrunding
-
-```java
-float price = 49.95;
-float discount = 0.2;
-```
-
-Beregn og udskriv den rabatterede pris.  
-Beregn og udskriv hvad rabatten sparer kunden (i kr.).
+`frameCount` er en indbygget variabel der tæller frames siden programmet startede.  
+Udskriv den i `draw()`. Hvad ser du?  
+Brug den derefter til at beregne hvor mange *sekunder* programmet har kørt — Processing kører som standard 60 frames i sekundet.
 
 ---
 
@@ -126,11 +126,8 @@ println(c);
 
 ## Øvelse 12 — Fejlsøgning
 
-Nedenstående kode indeholder tre fejl. Find og ret dem:
+Download sketchen og ret fejlene direkte i Processing:
 
-```java
-int score = "100";
-float pi = 3,14;
-String greeting = Hello;
-println(score + " point");
-```
+[⬇ variable_fejl.pde](variable_fejl/variable_fejl.pde)
+
+Der er 8 fejl — nogle er syntaksfejl der forhindrer koden i at køre, andre er logiske fejl hvor koden kører men opfører sig forkert. Ret én fejl ad gangen og kør efter hver rettelse.

@@ -148,3 +148,37 @@ println("Score er: " + score); // Score er: 10
 ```
 
 Prøv at tilføje `println(x)` inde i `draw()` i lektion 1-programmet. Du vil se `x` vokse for hver frame — og nulstille sig når cirklen når kanten.
+
+## Arrays — en liste af værdier
+
+Indtil nu har hver variabel holdt én værdi. Et **array** holder flere værdier af samme type — i en bestemt rækkefølge.
+
+```java
+int[] scores = {10, 25, 8, 42, 17};
+String[] cities = {"København", "Aarhus", "Odense"};
+```
+
+Du tilgår et element med dets **indeks** — position i listen. Indeks starter ved 0:
+
+```java
+println(scores[0]);  // 10 — det første element
+println(scores[2]);  // 8  — det tredje element
+println(cities[1]);  // Aarhus
+```
+
+`length` fortæller dig hvor mange elementer der er:
+
+```java
+println(scores.length);  // 5
+```
+
+Du kan også erklære et array med en fast størrelse og fylde det bagefter:
+
+```java
+float[] temperatures = new float[7];  // plads til 7 værdier
+temperatures[0] = 12.5;
+temperatures[1] = 14.0;
+// osv.
+```
+
+Arrays er udgangspunktet for alt der handler om *samlinger af data*. I lektion 4 ser vi hvordan løkker og arrays arbejder naturligt sammen.
