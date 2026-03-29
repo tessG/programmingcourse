@@ -32,14 +32,14 @@ Se: [Den gennemgående opgave](opgave_politik.md)
 
 ## Indholdsfortegnelse
 
-| Lektion | Emne | Koncept-side                                      |
-|---------|------|---------------------------------------------------|
-| 1 | Hvad er programmering — og hvad er Processing? | [Lektion1/Hello.md](Lektion1)             |
-| 2 | Variabler og datatyper | [Lektion2/Variable.md](Lektion2/Variable.md)      |
+| Lektion | Emne | Koncept-side                                   |
+|---------|------|------------------------------------------------|
+| 1 | Hvad er programmering — og hvad er Processing? | [Lektion1](Lektion1)            |
+| 2 | Variabler og datatyper | [Lektion2](Lektion2)     |
 | 3 | Beslutninger og forgreningslogik | [Lektion3/Betingelser.md](Lektion3/Betingelser.md) |
-| 4 | Løkker og lister | [Lektion4/Loops.md](Lektion4/Loops.md)            |
-| 5 | Funktioner — genbrug og overskuelighed | [Lektion5/Funktioner.md](Lektion5/Funktioner.md)  |
-| 6 | Objekter og klasser | [Lektion6/Klasser.md](Lektion6/Klasser.md)        |
+| 4 | Løkker og lister | [Lektion4/Loops.md](Lektion4/Loops.md)         |
+| 5 | Funktioner — genbrug og overskuelighed | [Lektion5/Funktioner.md](Lektion5/Funktioner.md) |
+| 6 | Objekter og klasser | [Lektion6/Klasser.md](Lektion6/Klasser.md)     |
 
 ---
 
