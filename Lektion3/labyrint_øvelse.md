@@ -50,7 +50,8 @@ Læg `antal killinger × antal skatte` til scoren.
 
 Flowdiagrammet herunder viser algoritmen visuelt. Brug det til at tjekke at din forståelse af reglerne stemmer overens med diagrammet — inden du begynder at kode.
 
-{{< plantuml >}}
+
+{{< plantuml id="activity-diagram" >}}
 
 @startuml
 start
@@ -74,6 +75,7 @@ else (false)
 endif
 
 stop
+
 @enduml
 
 {{< /plantuml >}}
