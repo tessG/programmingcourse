@@ -50,35 +50,29 @@ Læg `antal killinger × antal skatte` til scoren.
 
 Flowdiagrammet herunder viser algoritmen visuelt. Brug det til at tjekke at din forståelse af reglerne stemmer overens med diagrammet — inden du begynder at kode.
 
+```mermaid
+flowchart TD
+    A([calculateScore]) --> B{escaped?}
 
-{{< plantuml id="activity-diagram" >}}
+    B -->|false| C["score = score - (killinger + skatte)"]
 
-@startuml
-start
+    B -->|true| D{tid < 30 sek?}
+    D -->|true| E[score = 100]
+    D -->|false| F{tid < 60 sek?}
+    F -->|true| G[score = 80]
+    F -->|false| H{tid < 90 sek?}
+    H -->|true| I[score = 50]
+    H -->|false| J{tid < 120 sek?}
+    J -->|true| K[score = 10]
 
-:calculateScore();
+    E --> L["score = score + (killinger × skatte)"]
+    G --> L
+    I --> L
+    K --> L
 
-if (escaped?) then (true)
-if (tid < 30 sek?) then (true)
-:score = 100;
-elseif (tid < 60 sek?) then (true)
-:score = 80;
-elseif (tid < 90 sek?) then (true)
-:score = 50;
-elseif (tid < 120 sek?) then (true)
-:score = 10;
-endif
-
-:score = score + (killinger × skatte);
-else (false)
-:score = score - (killinger + skatte);
-endif
-
-stop
-
-@enduml
-
-{{< /plantuml >}}
+    L --> M([stop])
+    C --> M
+```
 
 ---
 
