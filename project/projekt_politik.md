@@ -15,26 +15,33 @@ Herunder har vi ordnet nogle forslag til hvad du hver uge kan gøre for at udvid
 ### Intro til Processing
 
 Allerede efter første lektion vil du være i stand til at tegne de grundlæggende elementer: de to farvede baggrundszoner (blå og rød), den vandrette linje der repræsenterer spektret, og de farvede firkanter der markerer hvert parti.
-
 Når du placerer elementerne, træner du din forståelse af Processings tegnefunktioner, deres parametre, og hvordan de påvirker placeringen af primitive shapes i Processing-vinduet.
+- Hvert parti har en position på spektret og en farve. Hvordan holder du styr på det?
+- Hvad med teksten til partiernes navne?
+  [Brug the Processing reference!](https://processing.org/reference/text_.html)
+-  Hvad med billeder?
+   [Brug the Processing reference!](https://processing.org/reference/loadImage_.html)
+
+## Uge 2
 
 ### Variable
 
 Hvad har vi af data i billedet? Hvilke variable skal du lave for at holde på den data? Et par eksempler:
 
 - Linjen har en start- og slutposition — og en y-koordinat. Hvad skal de hedde?
-- Hvert parti har en position på spektret og en farve. Hvordan holder du styr på det?
-- Hvad med teksten til partiernes navne?
-  [Brug the Processing reference!](https://processing.org/reference/text_.html)
+- Nu hvor du har lært om lister som noget der kan holde en bestemt datatype — hvad så med at tilføje en liste med partiernes navne ?
 
 ---
 
-## Uge 2: Kontrolstrukturer
+## Uge 3
 
 ### Betingelser
 
 - Er der noget i billedet der varierer systematisk afhængig af placering på spektret?
 - Kan du skrive en betingelse der afgør om et parti hører til venstre eller højre for midten — og fx ændrer tekstfarve eller baggrund derefter?
+
+
+## Uge 4
 
 ### Loops
 
@@ -48,7 +55,7 @@ Ofte er det en god idé at skrive pseudokode når man skal bygge denne slags str
 
 ---
 
-## Uge 3: Organisering af koden
+## Uge 5
 
 ### Funktioner
 
@@ -57,6 +64,8 @@ Hvor meget gentager du dig selv? Er din kode læselig?
 - Kan du samle kommandoerne til at tegne ét parti i en funktion og kalde den i stedet?
   En lang liste af kommandoer er svær at læse. Koden bliver mere overskuelig hvis den er brudt op i mindre bidder.
   Modulariteten giver dig også mulighed for at genbruge kode. Hvis du opdager at du bygger funktioner der ligner hinanden bortset fra en enkelt detalje — overvej om du kan nøjes med én funktion med parametre.
+
+## Uge 6
 
 ### Objekter og klasser
 
@@ -73,9 +82,13 @@ Du ser måske at der er **grupper** (blok af partier) bestående af **partier**.
 
 ---
 
-## Uge 4: Lister
+## Uge 7
 
-Nu hvor du har lært om lister som noget der kan holde en bestemt datatype — hvad så med at tilføje en liste med typen `Party` til `Group`?
+### Data
+Overvej hvad i din kode der kunne leve udenfor koden. Prøv om du kan loade navnene på partierne fra en csv fil.
+
+
+
 
 ---
 

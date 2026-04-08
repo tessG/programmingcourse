@@ -63,7 +63,9 @@ Du ser måske at der er **grupper** bestående af nogle **lande**.
 - Hvor skal metoden kaldes fra? Fra konstruktoren? Fra setup()?
 - Hvorfra vil du instantiere Country og group?
 
-## Uge 7: Data
+## Uge 7
+
+### Data
 Overvej hvad i din kode der kunne leve udenfor koden. Prøv om du kan loade navnene på lande fra en csv fil.
 
 ## Jeg har gjort det hele, men der er stadig masser af tid, hvad så?
