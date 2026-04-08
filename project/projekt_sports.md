@@ -13,20 +13,25 @@ Herunder ser du forslag til ting du kan overveje, efterhånden som du lærer nyt
 ### Intro til Processing
 Allerede efter første lektion, vil du være i stand til at tegne de hvide rektangler der danner baggrund for landenavne.
 Når du placerer elementerne, træner du din forståelse af Processings tegnefunktionerne, deres parametre og hvordan de påvirker placeringen af primitive "shapes" i Processing vinduet.
-
-### Variable
-Hvad har vi af data i billedet? Hvilke variable skal jeg lave for at holde på den data? Et par eksempler:
-- Højde og bredde på de hvide rectangler. Her kan du evt. bruge systemvariable som ```width``` og ```height```, til at arbejde med dimensioner og placering af rektanglerne
 - Hvad med teksten til at skrive landene?
   [Brug the Processing reference!](https://processing.org/reference/text_.html)
 -  Hvad med billeder?
    [Brug the Processing reference!](https://processing.org/reference/loadImage_.html)
 
-## Uge 2: Kontrolstrukturer
+## Uge 2
+
+### Variable
+Hvad har vi af data i billedet? Hvilke variable skal jeg lave for at holde på den data? Et par eksempler:
+- Højde og bredde på de hvide rectangler. Her kan du evt. bruge systemvariable som ```width``` og ```height```, til at arbejde med dimensioner og placering af rektanglerne
+- Nu hvor du har lært om lister som noget der kan holde en bestemt datatype, hvad så med at tilføje en liste til at holde landenavnene?
+
+## Uge 3
 
 ### Betingelser
 -  Er der noget i billedet der på systematisk vis varierer?
 - Kan du skrive en betingelse der tager hånd om den variation?
+
+## Uge 4
 
 ### Loops
 Er der kommandoer der bliver gentaget mange gange? (mere end 1 betyder "mange" i programmering).
@@ -36,13 +41,16 @@ Er der kommandoer der bliver gentaget mange gange? (mere end 1 betyder "mange" i
 
 Ofte er det en god ide at skrive en pseudokode når man skal bygge denne slags kode.
 
-## Uge 3: Organisering af koden
+## Uge 5
+
 ### Funktioner
 Hvor meget gentager du dig selv i koden? Er din kode læselig?
 - kan du gruppere visse kommandoer i en funktion og kalde funktionen i stedet?
   Det er svært at læse en masse linjer med kommandoer. Din kode bliver mere læselig hvis den brudt op i mindre bidder.
   Modulariteten giver dig også mulighed for at genbruge kode. Hvis du opdager at du bygger funktioenr der ligner hinanden
   bortset fra en enkelt lille detalje: overvej om du kan nøjes med en en funktion og give den et eller flere parametre.
+
+## Uge 6
 
 ### Objekter og klasser
 Hvilke objekter er der i dette billede?
@@ -55,9 +63,8 @@ Du ser måske at der er **grupper** bestående af nogle **lande**.
 - Hvor skal metoden kaldes fra? Fra konstruktoren? Fra setup()?
 - Hvorfra vil du instantiere Country og group?
 
-## Uge 4: Lister
-Nu hvor du har lært om lister som noget der kan holde en bestemt datatype, hvad så med at tilføje en liste med typen Country til Group?
-
+## Uge 7: Data
+Overvej hvad i din kode der kunne leve udenfor koden. Prøv om du kan loade navnene på lande fra en csv fil.
 
 ## Jeg har gjort det hele, men der er stadig masser af tid, hvad så?
 Er du der hvor du har overvejent alle de spørgsmål ovenover, så ser din kode sandsynligvis ret fornuftig ud nu.
