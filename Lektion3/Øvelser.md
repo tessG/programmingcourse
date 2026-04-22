@@ -88,6 +88,7 @@ Brug de to tællevariabler til at beregne positionen.
 Tag grand tour-programmet fra denne lektion.  
 Tilføj en `mousePressed()`-funktion der kalder `redraw()` — så der tegnes et nyt sæt cirkler hver gang man klikker:
 
+
 ```java
 void mousePressed() {
   background(30);
